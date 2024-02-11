@@ -1,6 +1,6 @@
-#Terraform - Auto Create AWS Instance and run webserver
+# Terraform - Auto Create AWS Instance and run webserver
 
-##Main Commands
+## Main Commands
 
 - **terrraform init** - For initialization, download the resources needed
 
@@ -14,13 +14,13 @@
 
 - **terraform destroy -state=tfstate_datetime.tfstate** - Destroy the created resources by terraform.
 
-##Visual Commands
+## Visual Commands
 
 - **terrraform graph** - For initialization, download the resources needed
 
 - **terrraform plan -out=plan.out** - Generate the a binary
 
-###Resource
+### Resource
 
 - [Terraform Main Commands](https://developer.hashicorp.com/terraform/cli/commands)
 
